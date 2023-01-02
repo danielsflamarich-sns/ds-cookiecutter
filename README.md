@@ -1,4 +1,4 @@
-cookiecutter-madcollective-datascience
+datascience-cookiecutter
 ==============================
 
 Template for Data Science projects
@@ -17,7 +17,7 @@ Starting a new project
 
 Run this command line, answer a few questions, and cookiecutter will automatically create the directory.
 
-`cookiecutter https://github.com/danielsflamaric/data-science-mc-cookiecutter.git`
+`cookiecutter https://github.com/danielsflamarich-sns/ds-cookiecutter.git`
 
 
 Project Organization
