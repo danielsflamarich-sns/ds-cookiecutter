@@ -1,5 +1,5 @@
 {
-    "field": ["ds", "da", "de"]
+    "field": ["ds", "da", "de"],
     "project_name": "Project name",
     "owner": "Your name",
     "department": ["Delta", "Alpha", "Bravo", "Echo", "Other"],
