@@ -7,7 +7,7 @@ Template for Data Science projects
 Requirements
 ------------
 
-Python 2.7 or 3.5
+Python >= 3.5
 
 [cookiecutter Python package](https://pypi.org/project/cookiecutter/) >= 1.4.0: `pip install cookiecutter`
 
@@ -18,6 +18,18 @@ Starting a new project
 Run this command line, answer a few questions, and cookiecutter will automatically create the directory.
 
 `cookiecutter https://github.com/danielsflamarich-sns/ds-cookiecutter.git`
+
+After that, go to the newly created folder and create a new environment (in this case, the environment name is `env`):
+
+`python3 -m venv env`
+
+Activate newly created environment:
+
+`source env/bin/activate`
+
+And lastly, install Sonosuite's data team python package:
+
+`pip install git+https://github.com/danielsflamarich-sns/dataanalytics-sns-python-package`
 
 
 Project Organization
